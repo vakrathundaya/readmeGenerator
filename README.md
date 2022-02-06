@@ -22,7 +22,7 @@
 
   ## Usage 
   
-  Navigate to your project directory in your system and run node.js in commond line.
+  Navigate to your project directory in your system and run node.js in command line.
   
   
   ![screenshotRead](https://user-images.githubusercontent.com/94205464/152671536-703eb96d-7709-4a3b-b069-33042a472004.png)
