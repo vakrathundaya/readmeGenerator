@@ -25,7 +25,7 @@
   Navigate to your project directory in your system and run node.js in commond line.
   
   
-  Walkthrough video : https://user-images.githubusercontent.com/94205464/152669767-8f0b88f8-f24a-4069-93d7-a216a5ec9009.mp4
+  Walkthrough video : https://user-images.githubusercontent.com/94205464/152670028-8ae71f7a-dc4e-4c6c-8aed-e178b1054bdf.mp4
 
 
   ## License 
