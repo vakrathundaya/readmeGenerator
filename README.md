@@ -21,7 +21,7 @@
 
   ## Usage 
   Navigate to your project directory in your system and run node.js in commond line.
-  Walkthrough video : https://watch.screencastify.com/v/a7Mf3R6pzOYVsCGuzMBp
+  Walkthrough video : https://watch.screencastify.com/v/mOIxbt37xbq0LNMDZ6Ly
 
 
   ## License 
