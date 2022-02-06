@@ -4,7 +4,7 @@
   
   ## Description 
   
-  It generates readme file for your project
+  It generates README file based on the data given by user.
 
 
   ## Table of Contents
@@ -33,7 +33,7 @@
 
   ## Contributing 
 
-  Contributors can create pull requets
+  Contributors can create pull requests
 
 
   ## Tests
