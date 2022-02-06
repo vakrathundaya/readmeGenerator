@@ -25,6 +25,9 @@
   Navigate to your project directory in your system and run node.js in commond line.
   
   
+  ![screenshotRead](https://user-images.githubusercontent.com/94205464/152671536-703eb96d-7709-4a3b-b069-33042a472004.png)
+  
+  
   Walkthrough video : https://user-images.githubusercontent.com/94205464/152670028-8ae71f7a-dc4e-4c6c-8aed-e178b1054bdf.mp4
 
 
