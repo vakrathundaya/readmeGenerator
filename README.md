@@ -1,4 +1,4 @@
-# Professional read me generator
+# Professional readme generator
 
   ![Github licence](http://img.shields.io/badge/license-""-blue.svg)
   
