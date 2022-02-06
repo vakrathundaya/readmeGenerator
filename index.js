@@ -57,13 +57,29 @@ const getData = () => {
         {
             type: 'input',
             name: 'github',
-            message: 'What is your GitHub username?'
+            message: 'What is your GitHub username?',
+            validate: message => {
+                if (message) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username!');
+                    return false; 
+                }
+            } 
 
         },
         {
             type: 'input',
             name: 'email',
-            message: 'What is your email address?'
+            message: 'What is your email address?',
+            validate: message => {
+                if (message) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address!');
+                    return false; 
+                }
+            }
         }
     ]);
 };
