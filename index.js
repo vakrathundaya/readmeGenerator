@@ -13,13 +13,31 @@ const getData = () => {
         {
             type: 'input',
             name: 'title',
-            message: 'what is your project?'
+            message: 'what is your project?',
+            validate: message => {
+                if(message){
+                    return true;
+                }
+                else{
+                    console.log("enter your project name");
+                    return false;
+                }
+            }
 
         },
         {
             type: 'input',
             name: 'description',
-            message: 'please write a description of your project'
+            message: 'please write a description of your project',
+            validate: message => {
+                if(message){
+                    return true;
+                }
+                else{
+                    console.log("enter your project description");
+                    return false;
+                }
+            }
 
         },
         {
@@ -27,13 +45,31 @@ const getData = () => {
             type: 'list',
             name: 'license',
             message: 'what kind of license your project have?',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', '""']
+            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', '""'],
+            default: [""],
+            validate: choices => {
+                if (choices) {
+                    return true;
+                } else {
+                    console.log('Please choose a license!');
+                    return false; 
+                }
+            }
+        
 
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'How do you use this app?'
+            message: 'How do you use this app?',
+            validate: message => {
+                if (message) {
+                    return true;
+                } else {
+                    console.log('Please describe the usage');
+                    return false; 
+                }
+            }
         },
 
         {
