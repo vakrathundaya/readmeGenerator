@@ -75,19 +75,36 @@ const getData = () => {
         {
             type: 'input',
             name: 'install',
-            message: 'What are the steps required to install your project?'
+            message: 'What are the steps required to install your project?',
+            validate: message => {
+                if (message) {
+                    return true;
+                } else {
+                    console.log('Please enter steps required to install your project!');
+                    return false; 
+                }
+            }
         },
 
         {
             type: 'input',
             name: 'test',
-            message: 'What command should be run to run tests?'
+            message: 'What command should be run to run tests?',
+            default: 'npm test'
         },
 
         {
             type: 'input',
             name: 'contributors',
-            message: 'what does the user need to know about contributing to the repo?'
+            message: 'what does the user need to know about contributing to the repo?',
+            validate: message => {
+                if (message) {
+                    return true;
+                } else {
+                    console.log('what does the user need to know about contributing to the repo?');
+                    return false; 
+                }
+            }
 
         },
         {
