@@ -1,10 +1,10 @@
-# Professional README generator
+# README GENERATOR
 
   ![Github licence](http://img.shields.io/badge/license-""-blue.svg)
   
   ## Description 
   
-  It generates README file based on the data given by user.
+  It generates professional readme file for the project
 
 
   ## Table of Contents
@@ -23,7 +23,7 @@
 
   ## Usage 
 
-  Navigate to your project directory in your terminal and run node index.js
+  Navigate to your project directory in your terminal and run node.js and readme will be generated
 
 
   ## License 
@@ -33,7 +33,7 @@
 
   ## Contributing 
 
-  Contributors can create pull requests
+  Contributors can create pull request
 
 
   ## Tests

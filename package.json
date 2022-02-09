@@ -1,0 +1,23 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "![Github licence](http://img.shields.io/badge/license-APACHE 2.0-blue.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakrathundaya/readmeGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakrathundaya/readmeGenerator/issues"
+  },
+  "homepage": "https://github.com/vakrathundaya/readmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
